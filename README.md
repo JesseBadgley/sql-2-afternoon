@@ -32,7 +32,7 @@ SELECT a.name, b.name FROM some_table a JOIN another_table b ON a.some_id = b.so
 3. Get the customer `first_name` and `last_name` and the support rep's `first_name` and `last_name` from all customers. 
     * Support reps are on the employee table.
 4. Get the album `title` and the artist `name` from all albums.
-5. Get all playlist_track track_ids where the playlist `name` is Music.
+5. Get all playlist_track track_ids where the playlist  `name` is Music.
 6. Get all track `name`s for `playlist_id` 5.
 7. Get all track `name`s and the playlist `name` that they're on ( 2 joins ).
 8. Get all track `name`s and album `title`s that are the genre `Alternative & Punk` ( 2 joins ).
@@ -40,7 +40,7 @@ SELECT a.name, b.name FROM some_table a JOIN another_table b ON a.some_id = b.so
 ### Solution
 
 <details>
-
+ 
 <summary> <code> SQL Solutions </code> </summary>
 
 <details>
